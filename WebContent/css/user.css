@@ -1,0 +1,100 @@
+@charset "UTF-8";
+body{
+	background-image:url("../img/3.jpg");
+	background-repeat:no-repeat;
+	margin:0px;
+	padding:0px;
+}
+#top{
+	width:98%;
+	height:120px;
+}
+#top p{
+	text-align:center;
+	font-size:25px;
+	color:#cc3399;
+}
+#top span{
+	color:#ff0033;
+}
+#top a:hover{
+	color:pink;
+}
+#left{
+	width:15%;
+	height:600px;
+	margin-top:20px;
+	float: left;
+	
+	opacity:0.5;
+	background-color:white;
+	text-align:center;
+}
+#rooms{
+	margin:0px;
+	overflow:scroll;
+}
+#right{
+	width:75%;
+	height:490px;
+	float:left;
+	overflow: scroll;
+
+	background-image:url("../img/1.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+	/*filter:blur(1px);*/
+}
+#main{
+	overflow:hidden;
+	background-image:url("../img/2.jpg");
+	background-size: 100%;
+	background-repeat:no-repeat;
+}
+#down{
+	float:left;
+	overflow:hidden;
+	margin-top:10px;
+}
+#input{
+	opacity:0.8;
+	border-radius:4px;
+	font-size:20px;
+}
+#down button{
+	display:block;
+	float:right;
+	opacity:0.5;
+	border-radius:8px;
+	padding: 5px;
+	margin: 20px;
+	font-size:20px;
+};
+.m1{
+	width:800px;
+	color:blue;
+	opacity:0.8;
+	background-color:white;
+}
+.m2{
+	text-decoration:none;
+	width:700px;
+}
+.m2 .mess{
+	color:white;
+}
+.m1 .time{
+	color:white;
+}
+.m1 .name{
+	color:red;
+}
+.roms:hover{
+	background-color:grey;
+	font-size:20px;
+}
+div{
+	border:1px solid rgba(255, 0, 0, 0);
+	margin:20px;
+	border-radius:10px;
+}

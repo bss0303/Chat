@@ -1,0 +1,53 @@
+body{
+	background-image:url("../img/2.jpg");
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+.main{
+	opacity:0.6;
+	width:400px;
+	height:260px;
+	background-color:white;
+	position:absolute;
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+	margin-top:-130px;
+	border-radius:20px;
+}
+.main h2{
+	font-family:"楷体";
+	font-weight:2px;
+	color:black;
+	padding:10px;
+}
+form{
+	padding:2px 85px;
+}
+form input{
+	border:1px solid white;
+	display:block;
+	padding:5px;
+	margin:20px 10px;
+	width:200px;
+	border-radius:30px;
+	font-size:18px;
+	font-weight:300;
+	text-align:center;
+}
+form input:hover{
+	background-color:pink;
+}
+form button{
+	background-color:yellow;
+	border-radius:10px;
+	border:0;
+	height:25px;
+	width:60px;
+	padding:5px 10px;
+	color:black;
+}
+form button:hover{
+	background-color:red;
+}

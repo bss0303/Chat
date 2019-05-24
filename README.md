@@ -2,10 +2,10 @@
 a easy chat online project based on JavaWeb and "ajax";
 
 ## Allocation
-Eclipse -> 2019-03
-Jdk -> 11.0.3
-Tomcat -> 9.0
-mysql Ver 15.1 Distrib 10.3.13-Mariadb
+Eclipse -> 2019-03<br>
+Jdk -> 11.0.3<br>
+Tomcat -> 9.0<br>
+mysql Ver 15.1 Distrib 10.3.13-Mariadb<br>
 
 ## Usage
 you are the bigest one, you can add, delete user and room. This don't have a functin of 'register'.

@@ -1,16 +1,16 @@
 # chat
 a easy chat online project based on JavaWeb and "ajax";
 
-## Allocation
+### Allocation
 Eclipse -> 2019-03<br>
 Jdk -> 11.0.3<br>
 Tomcat -> 9.0<br>
 mysql Ver 15.1 Distrib 10.3.13-Mariadb<br>
 
-## Usage
+### Usage
 you are the bigest one, you can add, delete user and room. This don't have a functin of 'register'.
 
-## Others
+### Others
 I have used a datapool. You need add the  following to tomcat/conf/context.xml (if you use Eclipse you should add to /Servers/tomcat/context.xml). Besides don't forget to add connector of mysql to this project.
 
 	<Resource

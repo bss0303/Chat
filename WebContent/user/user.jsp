@@ -104,7 +104,7 @@ var flag = true;
 		}
 		xmlhttp.onreadystatechange=function(){
 			if(xmlhttp.readyState==4 && xmlhttp.status==200){
-				alert(xmlhttp.responseText);//need to polish
+				console.log(xmlhttp.responseText);
 				$("#input").show().focus();
 			}
 		}
@@ -126,7 +126,10 @@ var flag = true;
 		}
 		xmlhttp.onreadystatechange=function(){
 			if(xmlhttp.readyState==4 && xmlhttp.status==200){
+				if(xmlhttp.responseText != null && xmlhttp.responseText != ""){
 					$("#right").append(xmlhttp.responseText);
+					$("#right").scrollTop($("#right")[0].scrollHeight);
+				}
 			}
 		}
 		xmlhttp.open("GET", "../UserServlet?method=get&rname="+rname+"&t="+Math.random(), true);
